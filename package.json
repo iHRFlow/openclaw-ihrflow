@@ -1,11 +1,40 @@
 {
   "name": "openclaw-ihrflow",
   "version": "1.0.0",
-  "description": "OpenClaw native plugin for iHRFlow HR management platform",
+  "description": "OpenClaw native plugin for iHRFlow HR management platform — candidate search, position management, interview scheduling, pipeline, and recruitment statistics.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "openclaw.plugin.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
   "openclaw": {
     "extensions": [
       "./src/index.ts"
     ]
+  },
+  "keywords": [
+    "openclaw",
+    "openclaw-plugin",
+    "ihrflow",
+    "hr",
+    "recruitment",
+    "ats",
+    "talent-management"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/openclaw-ihrflow.git"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "@sinclair/typebox": "^0.34.0"
