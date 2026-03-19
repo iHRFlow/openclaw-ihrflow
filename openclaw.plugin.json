@@ -1,0 +1,30 @@
+{
+  "id": "openclaw-ihrflow",
+  "name": "iHRFlow",
+  "description": "iHRFlow HR management plugin — candidate search, position management, interview scheduling, pipeline, and recruitment statistics.",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "apiUrl": {
+        "type": "string",
+        "description": "iHRFlow 后端 API 地址，如 https://ihrflow.com/api",
+        "default": "http://localhost:8000/api"
+      },
+      "username": {
+        "type": "string",
+        "description": "iHRFlow 登录用户名",
+        "default": ""
+      },
+      "password": {
+        "type": "string",
+        "description": "iHRFlow 登录密码",
+        "default": ""
+      },
+      "tenantId": {
+        "type": "string",
+        "description": "iHRFlow 租户ID（多租户场景）",
+        "default": ""
+      }
+    }
+  }
+}

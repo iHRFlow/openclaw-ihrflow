@@ -1,0 +1,16 @@
+{
+  "name": "openclaw-ihrflow",
+  "version": "1.0.0",
+  "description": "OpenClaw native plugin for iHRFlow HR management platform",
+  "openclaw": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
