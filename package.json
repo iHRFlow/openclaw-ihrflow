@@ -1,5 +1,5 @@
 {
-  "name": "openclaw-ihrflow",
+  "name": "@ihrflow.com/openclaw-ihrflow",
   "version": "1.0.0",
   "description": "OpenClaw native plugin for iHRFlow HR management platform — candidate search, position management, interview scheduling, pipeline, and recruitment statistics.",
   "main": "dist/index.js",
@@ -31,7 +31,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/openclaw-ihrflow.git"
+    "url": "https://github.com/iHRFlow/openclaw-ihrflow.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "engines": {
     "node": ">=18"
